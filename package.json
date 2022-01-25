@@ -1,0 +1,29 @@
+{
+  "name": "covid-api-express",
+  "version": "1.0.0",
+  "description": "Restfull api for covid patient",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdfahmi07/covid-api-express-js.git"
+  },
+  "author": "Abdulloh Fahmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdfahmi07/covid-api-express-js/issues"
+  },
+  "homepage": "https://github.com/abdfahmi07/covid-api-express-js#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^14.3.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.14.0"
+  }
+}
