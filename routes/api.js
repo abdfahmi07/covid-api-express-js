@@ -1,8 +1,8 @@
 const { Router } = require("express");
 const router = Router();
 
-router.get("/", function (req, res) {
-  res.send("Hello World");
-});
+const PatientController = require("../controllers/PatientController");
+
+router.get("/", PatientController.index);
 
 module.exports = router;
